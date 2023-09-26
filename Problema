@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+
+    cout<<"nr de alei??"<<endl;
+    cin>>n;
+
+    if (n >= 1 and n <= 50){
+
+    cout<<"nr de arbori"<<endl;
+    cout<<n * n<<endl;
+
+    cout<<"nr de creanga"<<endl;
+    cout<<n * n * n<<endl;
+
+    cout<<"nr de cuiburi"<<endl;
+    cout<<n * n * n * n<<endl;
+
+    cout<<"nr de pasari"<<endl;
+    cout<<n * n * n * n * n<<endl;
+    } else {
+        cout<<"Prea multe alei"<<endl;
+    }
+
+    return 0;
+}
